@@ -1,0 +1,50 @@
+If your reading this, I've either passed away or am missing.
+
+This drive is a backup access key for my digital life.
+
+If all steps followed correctly access to my Dashlane Account will be granted.
+(Dashlane is my password manager and give access to all my other accounts)
+
+Should there be any issues, please talk to my friend Max (Maton) who will be able to assist with technical issues.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Access code Generation --
+1.  Find my home server (located in my network rack at my home) and make sure it is powered on.
+2.  On this SD card you should fine a file called "ssh.txt" which will contain a username and password to ssh to this server.
+    (If your on my home network, unplug the ethernet cable from any Apple TV an use that to connect your own computer. The servers IP address will be 10.0.10.254)
+3.  Once connected, run the following command: "python3 RequestAccess.py".
+4.  Wait 7 days (Script will enforce this period to make sure access not given in error, and notification will be sent to my email).
+5.  Use steps 1-3 to run the script again which will output a access code. Take note of this code.
+
+-- Unlock credentials --
+6.  Use the code from step 5 to unlock the encrypteed zip file on this SD card named data.zip.
+
+-- Decide Access Method --
+7. I've setup to access methods, with and without phone.
+8. With access to my phone use step 10-11.
+9. Without access to my phone use steps 12-y.
+
+-- Phone Access --
+10. Use the pincode in the phone_pincode.txt file to unlock my phone.
+11. Use the password located in the dashlane_credentials.txt to access the dashlaine app.
+
+-- Gmail Access --
+12. In the data.zip you should fine "gmail_credentials.txt" which will provide username, password and 2fa backup codes
+13. Use credentials from step 8 to long into my gmail account.
+14. Setup your phone for 2fa on the account to retain access
+
+-- Dashlane Access --
+15. In the data.zip you should fine "dashlane_credentials.txt" which will provide username, password
+16. Use credentials from step 10 to long into my dashlane account.
+17. A 2fa code may be sent to my gmail account, log in there to find this if needed.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Files that should be on this drive:
+1. Instruxtions.txt
+2. ssh.txt
+3. data.zip
+   3.1. gmail_credentials.txt
+   3.2. dashlane_credentials.txt
+   3.3. phone_pincode.txt
