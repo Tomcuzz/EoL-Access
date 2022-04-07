@@ -30,12 +30,12 @@ Should there be any issues, please talk to my friend Max (Maton) who will be abl
 11. Use the password located in the dashlane_credentials.txt to access the dashlaine app.
 
 -- Gmail Access --
-12. In the data.zip you should fine "gmail_credentials.txt" which will provide username, password and 2fa backup codes
+12. In the data.dmg you should fine "gmail_credentials.txt" which will provide username, password and 2fa backup codes
 13. Use credentials from step 8 to long into my gmail account.
 14. Setup your phone for 2fa on the account to retain access
 
 -- Dashlane Access --
-15. In the data.zip you should fine "dashlane_credentials.txt" which will provide username, password
+15. In the data.dmg you should fine "dashlane_credentials.txt" which will provide username, password
 16. Use credentials from step 10 to long into my dashlane account.
 17. A 2fa code may be sent to my gmail account, log in there to find this if needed.
 
@@ -44,7 +44,7 @@ Should there be any issues, please talk to my friend Max (Maton) who will be abl
 Files that should be on this drive:
 1. Instruxtions.txt
 2. ssh.txt
-3. data.zip
+3. data.dmg
    3.1. gmail_credentials.txt
    3.2. dashlane_credentials.txt
    3.3. phone_pincode.txt
